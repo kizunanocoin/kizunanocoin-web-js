@@ -6,7 +6,7 @@ import Convert from './util/convert'
 export default class NanoAddress {
 
 	readonly alphabet = '13456789abcdefghijkmnopqrstuwxyz'
-	readonly prefix = 'nano_'
+	readonly prefix = 'kizn_'
 
 	deriveAddress = (publicKey: string): string => {
 		const publicKeyBytes = Convert.hex2ab(publicKey)
@@ -75,7 +75,7 @@ export default class NanoAddress {
 	}
 
 	/**
-	 * Validates a Nano address with 'nano' and 'xrb' prefixes
+	 * Validates a Nano address with 'kizn' and 'kiz' prefixes
 	 *
 	 * Derived from https://github.com/alecrios/nano-address-validator
 	 *
@@ -90,7 +90,7 @@ export default class NanoAddress {
 			throw TypeError('Address must be a string.')
 		}
 
-		const allowedPrefixes: string[] = ['nano', 'xrb']
+		const allowedPrefixes: string[] = ['kizn', 'kiz']
 		const pattern = new RegExp(
 			`^(${allowedPrefixes.join('|')})_[13]{1}[13456789abcdefghijkmnopqrstuwxyz]{59}$`,
 		)
