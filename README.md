@@ -230,4 +230,4 @@ You are welcome to contribute to the module. To develop, use the following comma
 
 If this helped you in your endeavours and you feel like supporting the developer, feel free to donate some Nano:
 
-`kizn_1wmcgzbqgbyyawsto6t37sc6y7pkekpctzp7n3ay6pcxcy717p5g79rpfj7e`
+`kizn_1tahs8wx5xupc47kxna6dgn3m1jfiaxf5b3oz5dbbmk8cxi5sxjok7a5ta4k`
